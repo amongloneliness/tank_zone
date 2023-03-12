@@ -1,4 +1,5 @@
 #include "includes/h_map.h"
+#include "includes/h_tank.h"
 
 int main(void)
 {
@@ -86,7 +87,23 @@ int main(void)
         program_title
     );
 
+    Clock clock;        // объект: часы
+    float time = 0;     // переменная хранимая игровое время в микросекундах
+    
+    /* игровые объекты */
+    Tank player = Tank(0.5f, 0.3f, 0.3f);
+    
+    /* установка начальных координат игрока */
+    player.set_pos(
+        (float) window_width / 2, 
+        (float) window_height / 2
+    );
+
     while (window.isOpen()) {
+        // перерасчет времени
+        time = clock.getElapsedTime().asMicroseconds() / 1000;
+        clock.restart();    // перерасчет времени
+
         Event event;   // событие
         
         // обработка закрытия программы
@@ -96,8 +113,9 @@ int main(void)
         window.clear();
 
         /* отрисовка / обновление объектов */
+        player.update(time, window);
 
-        window.display();
+        window.display();   // вывод окна
     }
 
     return 0;    

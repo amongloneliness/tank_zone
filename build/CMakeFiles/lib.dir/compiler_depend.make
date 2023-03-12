@@ -319,14 +319,81 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
   /usr/local/include/SFML/Audio/SoundFileFactory.hpp \
   /usr/local/include/SFML/Audio/SoundFileFactory.inl \
   /usr/local/include/SFML/Audio/SoundFileReader.hpp \
-  /usr/local/include/SFML/Audio/SoundFileWriter.hpp
+  /usr/local/include/SFML/Audio/SoundFileWriter.hpp \
+  ../includes/h_tank.h \
+  /usr/include/c++/11/math.h \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../includes/h_sprites_path.h \
+  ../includes/h_tank_control.h
 
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+../includes/h_sprites_path.h:
+
+/usr/include/c++/11/limits:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/c++/11/math.h:
+
+../includes/h_tank.h:
 
 /usr/local/include/SFML/Audio/SoundFileWriter.hpp:
 
 /usr/local/include/SFML/Audio/SoundFileReader.hpp:
 
 /usr/local/include/SFML/Audio/SoundFileFactory.inl:
+
+/usr/include/c++/11/bits/specfun.h:
 
 /usr/local/include/SFML/Audio/SoundFileFactory.hpp:
 
@@ -353,6 +420,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 /usr/local/include/SFML/Graphics/Glsl.inl:
 
 /usr/local/include/SFML/Graphics/Glsl.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/local/include/SFML/Graphics/Shader.hpp:
 
@@ -383,6 +452,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 /usr/local/include/SFML/Audio/SoundStream.hpp:
 
 /usr/local/include/SFML/Graphics/Rect.hpp:
+
+../includes/h_tank_control.h:
 
 /usr/include/c++/11/bits/stl_tree.h:
 
@@ -500,6 +571,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/move.h:
 
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/local/include/SFML/System/Mutex.hpp:
@@ -537,6 +610,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 /usr/include/c++/11/pstl/pstl_config.h:
+
+/usr/include/c++/11/cmath:
 
 /usr/include/c++/11/bits/allocator.h:
 
@@ -580,6 +655,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/usr/include/c++/11/tr1/gamma.tcc:
+
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
@@ -587,6 +664,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
 /usr/include/c++/11/bits/node_handle.h:
 
@@ -613,6 +692,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
@@ -712,6 +793,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
+/usr/include/math.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/c++/11/bits/std_function.h:
@@ -758,6 +841,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
 /usr/include/c++/11/string_view:
@@ -771,6 +856,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/unordered_map:
 
 /usr/local/include/SFML/System.hpp:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/c++/11/array:
 

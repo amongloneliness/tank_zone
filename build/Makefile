@@ -169,6 +169,438 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sfml/ft_isKeyA.o: sfml/ft_isKeyA.cpp.o
+.PHONY : sfml/ft_isKeyA.o
+
+# target to build an object file
+sfml/ft_isKeyA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyA.cpp.o
+.PHONY : sfml/ft_isKeyA.cpp.o
+
+sfml/ft_isKeyA.i: sfml/ft_isKeyA.cpp.i
+.PHONY : sfml/ft_isKeyA.i
+
+# target to preprocess a source file
+sfml/ft_isKeyA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyA.cpp.i
+.PHONY : sfml/ft_isKeyA.cpp.i
+
+sfml/ft_isKeyA.s: sfml/ft_isKeyA.cpp.s
+.PHONY : sfml/ft_isKeyA.s
+
+# target to generate assembly for a file
+sfml/ft_isKeyA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyA.cpp.s
+.PHONY : sfml/ft_isKeyA.cpp.s
+
+sfml/ft_isKeyD.o: sfml/ft_isKeyD.cpp.o
+.PHONY : sfml/ft_isKeyD.o
+
+# target to build an object file
+sfml/ft_isKeyD.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyD.cpp.o
+.PHONY : sfml/ft_isKeyD.cpp.o
+
+sfml/ft_isKeyD.i: sfml/ft_isKeyD.cpp.i
+.PHONY : sfml/ft_isKeyD.i
+
+# target to preprocess a source file
+sfml/ft_isKeyD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyD.cpp.i
+.PHONY : sfml/ft_isKeyD.cpp.i
+
+sfml/ft_isKeyD.s: sfml/ft_isKeyD.cpp.s
+.PHONY : sfml/ft_isKeyD.s
+
+# target to generate assembly for a file
+sfml/ft_isKeyD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyD.cpp.s
+.PHONY : sfml/ft_isKeyD.cpp.s
+
+sfml/ft_isKeyDown.o: sfml/ft_isKeyDown.cpp.o
+.PHONY : sfml/ft_isKeyDown.o
+
+# target to build an object file
+sfml/ft_isKeyDown.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyDown.cpp.o
+.PHONY : sfml/ft_isKeyDown.cpp.o
+
+sfml/ft_isKeyDown.i: sfml/ft_isKeyDown.cpp.i
+.PHONY : sfml/ft_isKeyDown.i
+
+# target to preprocess a source file
+sfml/ft_isKeyDown.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyDown.cpp.i
+.PHONY : sfml/ft_isKeyDown.cpp.i
+
+sfml/ft_isKeyDown.s: sfml/ft_isKeyDown.cpp.s
+.PHONY : sfml/ft_isKeyDown.s
+
+# target to generate assembly for a file
+sfml/ft_isKeyDown.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyDown.cpp.s
+.PHONY : sfml/ft_isKeyDown.cpp.s
+
+sfml/ft_isKeyLeft.o: sfml/ft_isKeyLeft.cpp.o
+.PHONY : sfml/ft_isKeyLeft.o
+
+# target to build an object file
+sfml/ft_isKeyLeft.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyLeft.cpp.o
+.PHONY : sfml/ft_isKeyLeft.cpp.o
+
+sfml/ft_isKeyLeft.i: sfml/ft_isKeyLeft.cpp.i
+.PHONY : sfml/ft_isKeyLeft.i
+
+# target to preprocess a source file
+sfml/ft_isKeyLeft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyLeft.cpp.i
+.PHONY : sfml/ft_isKeyLeft.cpp.i
+
+sfml/ft_isKeyLeft.s: sfml/ft_isKeyLeft.cpp.s
+.PHONY : sfml/ft_isKeyLeft.s
+
+# target to generate assembly for a file
+sfml/ft_isKeyLeft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyLeft.cpp.s
+.PHONY : sfml/ft_isKeyLeft.cpp.s
+
+sfml/ft_isKeyRight.o: sfml/ft_isKeyRight.cpp.o
+.PHONY : sfml/ft_isKeyRight.o
+
+# target to build an object file
+sfml/ft_isKeyRight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyRight.cpp.o
+.PHONY : sfml/ft_isKeyRight.cpp.o
+
+sfml/ft_isKeyRight.i: sfml/ft_isKeyRight.cpp.i
+.PHONY : sfml/ft_isKeyRight.i
+
+# target to preprocess a source file
+sfml/ft_isKeyRight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyRight.cpp.i
+.PHONY : sfml/ft_isKeyRight.cpp.i
+
+sfml/ft_isKeyRight.s: sfml/ft_isKeyRight.cpp.s
+.PHONY : sfml/ft_isKeyRight.s
+
+# target to generate assembly for a file
+sfml/ft_isKeyRight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyRight.cpp.s
+.PHONY : sfml/ft_isKeyRight.cpp.s
+
+sfml/ft_isKeyS.o: sfml/ft_isKeyS.cpp.o
+.PHONY : sfml/ft_isKeyS.o
+
+# target to build an object file
+sfml/ft_isKeyS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyS.cpp.o
+.PHONY : sfml/ft_isKeyS.cpp.o
+
+sfml/ft_isKeyS.i: sfml/ft_isKeyS.cpp.i
+.PHONY : sfml/ft_isKeyS.i
+
+# target to preprocess a source file
+sfml/ft_isKeyS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyS.cpp.i
+.PHONY : sfml/ft_isKeyS.cpp.i
+
+sfml/ft_isKeyS.s: sfml/ft_isKeyS.cpp.s
+.PHONY : sfml/ft_isKeyS.s
+
+# target to generate assembly for a file
+sfml/ft_isKeyS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyS.cpp.s
+.PHONY : sfml/ft_isKeyS.cpp.s
+
+sfml/ft_isKeySpace.o: sfml/ft_isKeySpace.cpp.o
+.PHONY : sfml/ft_isKeySpace.o
+
+# target to build an object file
+sfml/ft_isKeySpace.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeySpace.cpp.o
+.PHONY : sfml/ft_isKeySpace.cpp.o
+
+sfml/ft_isKeySpace.i: sfml/ft_isKeySpace.cpp.i
+.PHONY : sfml/ft_isKeySpace.i
+
+# target to preprocess a source file
+sfml/ft_isKeySpace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeySpace.cpp.i
+.PHONY : sfml/ft_isKeySpace.cpp.i
+
+sfml/ft_isKeySpace.s: sfml/ft_isKeySpace.cpp.s
+.PHONY : sfml/ft_isKeySpace.s
+
+# target to generate assembly for a file
+sfml/ft_isKeySpace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeySpace.cpp.s
+.PHONY : sfml/ft_isKeySpace.cpp.s
+
+sfml/ft_isKeyUp.o: sfml/ft_isKeyUp.cpp.o
+.PHONY : sfml/ft_isKeyUp.o
+
+# target to build an object file
+sfml/ft_isKeyUp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyUp.cpp.o
+.PHONY : sfml/ft_isKeyUp.cpp.o
+
+sfml/ft_isKeyUp.i: sfml/ft_isKeyUp.cpp.i
+.PHONY : sfml/ft_isKeyUp.i
+
+# target to preprocess a source file
+sfml/ft_isKeyUp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyUp.cpp.i
+.PHONY : sfml/ft_isKeyUp.cpp.i
+
+sfml/ft_isKeyUp.s: sfml/ft_isKeyUp.cpp.s
+.PHONY : sfml/ft_isKeyUp.s
+
+# target to generate assembly for a file
+sfml/ft_isKeyUp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyUp.cpp.s
+.PHONY : sfml/ft_isKeyUp.cpp.s
+
+sfml/ft_isKeyW.o: sfml/ft_isKeyW.cpp.o
+.PHONY : sfml/ft_isKeyW.o
+
+# target to build an object file
+sfml/ft_isKeyW.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyW.cpp.o
+.PHONY : sfml/ft_isKeyW.cpp.o
+
+sfml/ft_isKeyW.i: sfml/ft_isKeyW.cpp.i
+.PHONY : sfml/ft_isKeyW.i
+
+# target to preprocess a source file
+sfml/ft_isKeyW.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyW.cpp.i
+.PHONY : sfml/ft_isKeyW.cpp.i
+
+sfml/ft_isKeyW.s: sfml/ft_isKeyW.cpp.s
+.PHONY : sfml/ft_isKeyW.s
+
+# target to generate assembly for a file
+sfml/ft_isKeyW.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_isKeyW.cpp.s
+.PHONY : sfml/ft_isKeyW.cpp.s
+
+sfml/ft_load_texture.o: sfml/ft_load_texture.cpp.o
+.PHONY : sfml/ft_load_texture.o
+
+# target to build an object file
+sfml/ft_load_texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_load_texture.cpp.o
+.PHONY : sfml/ft_load_texture.cpp.o
+
+sfml/ft_load_texture.i: sfml/ft_load_texture.cpp.i
+.PHONY : sfml/ft_load_texture.i
+
+# target to preprocess a source file
+sfml/ft_load_texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_load_texture.cpp.i
+.PHONY : sfml/ft_load_texture.cpp.i
+
+sfml/ft_load_texture.s: sfml/ft_load_texture.cpp.s
+.PHONY : sfml/ft_load_texture.s
+
+# target to generate assembly for a file
+sfml/ft_load_texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_load_texture.cpp.s
+.PHONY : sfml/ft_load_texture.cpp.s
+
+srcs/ft_isGunRotLeft.o: srcs/ft_isGunRotLeft.cpp.o
+.PHONY : srcs/ft_isGunRotLeft.o
+
+# target to build an object file
+srcs/ft_isGunRotLeft.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotLeft.cpp.o
+.PHONY : srcs/ft_isGunRotLeft.cpp.o
+
+srcs/ft_isGunRotLeft.i: srcs/ft_isGunRotLeft.cpp.i
+.PHONY : srcs/ft_isGunRotLeft.i
+
+# target to preprocess a source file
+srcs/ft_isGunRotLeft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotLeft.cpp.i
+.PHONY : srcs/ft_isGunRotLeft.cpp.i
+
+srcs/ft_isGunRotLeft.s: srcs/ft_isGunRotLeft.cpp.s
+.PHONY : srcs/ft_isGunRotLeft.s
+
+# target to generate assembly for a file
+srcs/ft_isGunRotLeft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotLeft.cpp.s
+.PHONY : srcs/ft_isGunRotLeft.cpp.s
+
+srcs/ft_isGunRotRight.o: srcs/ft_isGunRotRight.cpp.o
+.PHONY : srcs/ft_isGunRotRight.o
+
+# target to build an object file
+srcs/ft_isGunRotRight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotRight.cpp.o
+.PHONY : srcs/ft_isGunRotRight.cpp.o
+
+srcs/ft_isGunRotRight.i: srcs/ft_isGunRotRight.cpp.i
+.PHONY : srcs/ft_isGunRotRight.i
+
+# target to preprocess a source file
+srcs/ft_isGunRotRight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotRight.cpp.i
+.PHONY : srcs/ft_isGunRotRight.cpp.i
+
+srcs/ft_isGunRotRight.s: srcs/ft_isGunRotRight.cpp.s
+.PHONY : srcs/ft_isGunRotRight.s
+
+# target to generate assembly for a file
+srcs/ft_isGunRotRight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotRight.cpp.s
+.PHONY : srcs/ft_isGunRotRight.cpp.s
+
+srcs/ft_isGunShot.o: srcs/ft_isGunShot.cpp.o
+.PHONY : srcs/ft_isGunShot.o
+
+# target to build an object file
+srcs/ft_isGunShot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunShot.cpp.o
+.PHONY : srcs/ft_isGunShot.cpp.o
+
+srcs/ft_isGunShot.i: srcs/ft_isGunShot.cpp.i
+.PHONY : srcs/ft_isGunShot.i
+
+# target to preprocess a source file
+srcs/ft_isGunShot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunShot.cpp.i
+.PHONY : srcs/ft_isGunShot.cpp.i
+
+srcs/ft_isGunShot.s: srcs/ft_isGunShot.cpp.s
+.PHONY : srcs/ft_isGunShot.s
+
+# target to generate assembly for a file
+srcs/ft_isGunShot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunShot.cpp.s
+.PHONY : srcs/ft_isGunShot.cpp.s
+
+srcs/ft_isTankDown.o: srcs/ft_isTankDown.cpp.o
+.PHONY : srcs/ft_isTankDown.o
+
+# target to build an object file
+srcs/ft_isTankDown.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankDown.cpp.o
+.PHONY : srcs/ft_isTankDown.cpp.o
+
+srcs/ft_isTankDown.i: srcs/ft_isTankDown.cpp.i
+.PHONY : srcs/ft_isTankDown.i
+
+# target to preprocess a source file
+srcs/ft_isTankDown.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankDown.cpp.i
+.PHONY : srcs/ft_isTankDown.cpp.i
+
+srcs/ft_isTankDown.s: srcs/ft_isTankDown.cpp.s
+.PHONY : srcs/ft_isTankDown.s
+
+# target to generate assembly for a file
+srcs/ft_isTankDown.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankDown.cpp.s
+.PHONY : srcs/ft_isTankDown.cpp.s
+
+srcs/ft_isTankRotLeft.o: srcs/ft_isTankRotLeft.cpp.o
+.PHONY : srcs/ft_isTankRotLeft.o
+
+# target to build an object file
+srcs/ft_isTankRotLeft.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotLeft.cpp.o
+.PHONY : srcs/ft_isTankRotLeft.cpp.o
+
+srcs/ft_isTankRotLeft.i: srcs/ft_isTankRotLeft.cpp.i
+.PHONY : srcs/ft_isTankRotLeft.i
+
+# target to preprocess a source file
+srcs/ft_isTankRotLeft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotLeft.cpp.i
+.PHONY : srcs/ft_isTankRotLeft.cpp.i
+
+srcs/ft_isTankRotLeft.s: srcs/ft_isTankRotLeft.cpp.s
+.PHONY : srcs/ft_isTankRotLeft.s
+
+# target to generate assembly for a file
+srcs/ft_isTankRotLeft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotLeft.cpp.s
+.PHONY : srcs/ft_isTankRotLeft.cpp.s
+
+srcs/ft_isTankRotRight.o: srcs/ft_isTankRotRight.cpp.o
+.PHONY : srcs/ft_isTankRotRight.o
+
+# target to build an object file
+srcs/ft_isTankRotRight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotRight.cpp.o
+.PHONY : srcs/ft_isTankRotRight.cpp.o
+
+srcs/ft_isTankRotRight.i: srcs/ft_isTankRotRight.cpp.i
+.PHONY : srcs/ft_isTankRotRight.i
+
+# target to preprocess a source file
+srcs/ft_isTankRotRight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotRight.cpp.i
+.PHONY : srcs/ft_isTankRotRight.cpp.i
+
+srcs/ft_isTankRotRight.s: srcs/ft_isTankRotRight.cpp.s
+.PHONY : srcs/ft_isTankRotRight.s
+
+# target to generate assembly for a file
+srcs/ft_isTankRotRight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotRight.cpp.s
+.PHONY : srcs/ft_isTankRotRight.cpp.s
+
+srcs/ft_isTankUp.o: srcs/ft_isTankUp.cpp.o
+.PHONY : srcs/ft_isTankUp.o
+
+# target to build an object file
+srcs/ft_isTankUp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankUp.cpp.o
+.PHONY : srcs/ft_isTankUp.cpp.o
+
+srcs/ft_isTankUp.i: srcs/ft_isTankUp.cpp.i
+.PHONY : srcs/ft_isTankUp.i
+
+# target to preprocess a source file
+srcs/ft_isTankUp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankUp.cpp.i
+.PHONY : srcs/ft_isTankUp.cpp.i
+
+srcs/ft_isTankUp.s: srcs/ft_isTankUp.cpp.s
+.PHONY : srcs/ft_isTankUp.s
+
+# target to generate assembly for a file
+srcs/ft_isTankUp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankUp.cpp.s
+.PHONY : srcs/ft_isTankUp.cpp.s
+
+srcs/tank.o: srcs/tank.cpp.o
+.PHONY : srcs/tank.o
+
+# target to build an object file
+srcs/tank.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank.cpp.o
+.PHONY : srcs/tank.cpp.o
+
+srcs/tank.i: srcs/tank.cpp.i
+.PHONY : srcs/tank.i
+
+# target to preprocess a source file
+srcs/tank.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank.cpp.i
+.PHONY : srcs/tank.cpp.i
+
+srcs/tank.s: srcs/tank.cpp.s
+.PHONY : srcs/tank.s
+
+# target to generate assembly for a file
+srcs/tank.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank.cpp.s
+.PHONY : srcs/tank.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -182,6 +614,60 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sfml/ft_isKeyA.o"
+	@echo "... sfml/ft_isKeyA.i"
+	@echo "... sfml/ft_isKeyA.s"
+	@echo "... sfml/ft_isKeyD.o"
+	@echo "... sfml/ft_isKeyD.i"
+	@echo "... sfml/ft_isKeyD.s"
+	@echo "... sfml/ft_isKeyDown.o"
+	@echo "... sfml/ft_isKeyDown.i"
+	@echo "... sfml/ft_isKeyDown.s"
+	@echo "... sfml/ft_isKeyLeft.o"
+	@echo "... sfml/ft_isKeyLeft.i"
+	@echo "... sfml/ft_isKeyLeft.s"
+	@echo "... sfml/ft_isKeyRight.o"
+	@echo "... sfml/ft_isKeyRight.i"
+	@echo "... sfml/ft_isKeyRight.s"
+	@echo "... sfml/ft_isKeyS.o"
+	@echo "... sfml/ft_isKeyS.i"
+	@echo "... sfml/ft_isKeyS.s"
+	@echo "... sfml/ft_isKeySpace.o"
+	@echo "... sfml/ft_isKeySpace.i"
+	@echo "... sfml/ft_isKeySpace.s"
+	@echo "... sfml/ft_isKeyUp.o"
+	@echo "... sfml/ft_isKeyUp.i"
+	@echo "... sfml/ft_isKeyUp.s"
+	@echo "... sfml/ft_isKeyW.o"
+	@echo "... sfml/ft_isKeyW.i"
+	@echo "... sfml/ft_isKeyW.s"
+	@echo "... sfml/ft_load_texture.o"
+	@echo "... sfml/ft_load_texture.i"
+	@echo "... sfml/ft_load_texture.s"
+	@echo "... srcs/ft_isGunRotLeft.o"
+	@echo "... srcs/ft_isGunRotLeft.i"
+	@echo "... srcs/ft_isGunRotLeft.s"
+	@echo "... srcs/ft_isGunRotRight.o"
+	@echo "... srcs/ft_isGunRotRight.i"
+	@echo "... srcs/ft_isGunRotRight.s"
+	@echo "... srcs/ft_isGunShot.o"
+	@echo "... srcs/ft_isGunShot.i"
+	@echo "... srcs/ft_isGunShot.s"
+	@echo "... srcs/ft_isTankDown.o"
+	@echo "... srcs/ft_isTankDown.i"
+	@echo "... srcs/ft_isTankDown.s"
+	@echo "... srcs/ft_isTankRotLeft.o"
+	@echo "... srcs/ft_isTankRotLeft.i"
+	@echo "... srcs/ft_isTankRotLeft.s"
+	@echo "... srcs/ft_isTankRotRight.o"
+	@echo "... srcs/ft_isTankRotRight.i"
+	@echo "... srcs/ft_isTankRotRight.s"
+	@echo "... srcs/ft_isTankUp.o"
+	@echo "... srcs/ft_isTankUp.i"
+	@echo "... srcs/ft_isTankUp.s"
+	@echo "... srcs/tank.o"
+	@echo "... srcs/tank.i"
+	@echo "... srcs/tank.s"
 .PHONY : help
 
 
