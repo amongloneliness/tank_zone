@@ -409,197 +409,365 @@ sfml/ft_load_texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_load_texture.cpp.s
 .PHONY : sfml/ft_load_texture.cpp.s
 
-srcs/ft_isGunRotLeft.o: srcs/ft_isGunRotLeft.cpp.o
-.PHONY : srcs/ft_isGunRotLeft.o
+srcs/tank/draw.o: srcs/tank/draw.cpp.o
+.PHONY : srcs/tank/draw.o
 
 # target to build an object file
-srcs/ft_isGunRotLeft.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotLeft.cpp.o
-.PHONY : srcs/ft_isGunRotLeft.cpp.o
+srcs/tank/draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/draw.cpp.o
+.PHONY : srcs/tank/draw.cpp.o
 
-srcs/ft_isGunRotLeft.i: srcs/ft_isGunRotLeft.cpp.i
-.PHONY : srcs/ft_isGunRotLeft.i
+srcs/tank/draw.i: srcs/tank/draw.cpp.i
+.PHONY : srcs/tank/draw.i
 
 # target to preprocess a source file
-srcs/ft_isGunRotLeft.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotLeft.cpp.i
-.PHONY : srcs/ft_isGunRotLeft.cpp.i
+srcs/tank/draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/draw.cpp.i
+.PHONY : srcs/tank/draw.cpp.i
 
-srcs/ft_isGunRotLeft.s: srcs/ft_isGunRotLeft.cpp.s
-.PHONY : srcs/ft_isGunRotLeft.s
+srcs/tank/draw.s: srcs/tank/draw.cpp.s
+.PHONY : srcs/tank/draw.s
 
 # target to generate assembly for a file
-srcs/ft_isGunRotLeft.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotLeft.cpp.s
-.PHONY : srcs/ft_isGunRotLeft.cpp.s
+srcs/tank/draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/draw.cpp.s
+.PHONY : srcs/tank/draw.cpp.s
 
-srcs/ft_isGunRotRight.o: srcs/ft_isGunRotRight.cpp.o
-.PHONY : srcs/ft_isGunRotRight.o
+srcs/tank/load_textures.o: srcs/tank/load_textures.cpp.o
+.PHONY : srcs/tank/load_textures.o
 
 # target to build an object file
-srcs/ft_isGunRotRight.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotRight.cpp.o
-.PHONY : srcs/ft_isGunRotRight.cpp.o
+srcs/tank/load_textures.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/load_textures.cpp.o
+.PHONY : srcs/tank/load_textures.cpp.o
 
-srcs/ft_isGunRotRight.i: srcs/ft_isGunRotRight.cpp.i
-.PHONY : srcs/ft_isGunRotRight.i
+srcs/tank/load_textures.i: srcs/tank/load_textures.cpp.i
+.PHONY : srcs/tank/load_textures.i
 
 # target to preprocess a source file
-srcs/ft_isGunRotRight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotRight.cpp.i
-.PHONY : srcs/ft_isGunRotRight.cpp.i
+srcs/tank/load_textures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/load_textures.cpp.i
+.PHONY : srcs/tank/load_textures.cpp.i
 
-srcs/ft_isGunRotRight.s: srcs/ft_isGunRotRight.cpp.s
-.PHONY : srcs/ft_isGunRotRight.s
+srcs/tank/load_textures.s: srcs/tank/load_textures.cpp.s
+.PHONY : srcs/tank/load_textures.s
 
 # target to generate assembly for a file
-srcs/ft_isGunRotRight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunRotRight.cpp.s
-.PHONY : srcs/ft_isGunRotRight.cpp.s
+srcs/tank/load_textures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/load_textures.cpp.s
+.PHONY : srcs/tank/load_textures.cpp.s
 
-srcs/ft_isGunShot.o: srcs/ft_isGunShot.cpp.o
-.PHONY : srcs/ft_isGunShot.o
+srcs/tank/set_origin.o: srcs/tank/set_origin.cpp.o
+.PHONY : srcs/tank/set_origin.o
 
 # target to build an object file
-srcs/ft_isGunShot.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunShot.cpp.o
-.PHONY : srcs/ft_isGunShot.cpp.o
+srcs/tank/set_origin.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_origin.cpp.o
+.PHONY : srcs/tank/set_origin.cpp.o
 
-srcs/ft_isGunShot.i: srcs/ft_isGunShot.cpp.i
-.PHONY : srcs/ft_isGunShot.i
+srcs/tank/set_origin.i: srcs/tank/set_origin.cpp.i
+.PHONY : srcs/tank/set_origin.i
 
 # target to preprocess a source file
-srcs/ft_isGunShot.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunShot.cpp.i
-.PHONY : srcs/ft_isGunShot.cpp.i
+srcs/tank/set_origin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_origin.cpp.i
+.PHONY : srcs/tank/set_origin.cpp.i
 
-srcs/ft_isGunShot.s: srcs/ft_isGunShot.cpp.s
-.PHONY : srcs/ft_isGunShot.s
+srcs/tank/set_origin.s: srcs/tank/set_origin.cpp.s
+.PHONY : srcs/tank/set_origin.s
 
 # target to generate assembly for a file
-srcs/ft_isGunShot.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isGunShot.cpp.s
-.PHONY : srcs/ft_isGunShot.cpp.s
+srcs/tank/set_origin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_origin.cpp.s
+.PHONY : srcs/tank/set_origin.cpp.s
 
-srcs/ft_isTankDown.o: srcs/ft_isTankDown.cpp.o
-.PHONY : srcs/ft_isTankDown.o
+srcs/tank/set_pos.o: srcs/tank/set_pos.cpp.o
+.PHONY : srcs/tank/set_pos.o
 
 # target to build an object file
-srcs/ft_isTankDown.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankDown.cpp.o
-.PHONY : srcs/ft_isTankDown.cpp.o
+srcs/tank/set_pos.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_pos.cpp.o
+.PHONY : srcs/tank/set_pos.cpp.o
 
-srcs/ft_isTankDown.i: srcs/ft_isTankDown.cpp.i
-.PHONY : srcs/ft_isTankDown.i
+srcs/tank/set_pos.i: srcs/tank/set_pos.cpp.i
+.PHONY : srcs/tank/set_pos.i
 
 # target to preprocess a source file
-srcs/ft_isTankDown.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankDown.cpp.i
-.PHONY : srcs/ft_isTankDown.cpp.i
+srcs/tank/set_pos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_pos.cpp.i
+.PHONY : srcs/tank/set_pos.cpp.i
 
-srcs/ft_isTankDown.s: srcs/ft_isTankDown.cpp.s
-.PHONY : srcs/ft_isTankDown.s
+srcs/tank/set_pos.s: srcs/tank/set_pos.cpp.s
+.PHONY : srcs/tank/set_pos.s
 
 # target to generate assembly for a file
-srcs/ft_isTankDown.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankDown.cpp.s
-.PHONY : srcs/ft_isTankDown.cpp.s
+srcs/tank/set_pos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_pos.cpp.s
+.PHONY : srcs/tank/set_pos.cpp.s
 
-srcs/ft_isTankRotLeft.o: srcs/ft_isTankRotLeft.cpp.o
-.PHONY : srcs/ft_isTankRotLeft.o
+srcs/tank/set_sprites.o: srcs/tank/set_sprites.cpp.o
+.PHONY : srcs/tank/set_sprites.o
 
 # target to build an object file
-srcs/ft_isTankRotLeft.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotLeft.cpp.o
-.PHONY : srcs/ft_isTankRotLeft.cpp.o
+srcs/tank/set_sprites.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_sprites.cpp.o
+.PHONY : srcs/tank/set_sprites.cpp.o
 
-srcs/ft_isTankRotLeft.i: srcs/ft_isTankRotLeft.cpp.i
-.PHONY : srcs/ft_isTankRotLeft.i
+srcs/tank/set_sprites.i: srcs/tank/set_sprites.cpp.i
+.PHONY : srcs/tank/set_sprites.i
 
 # target to preprocess a source file
-srcs/ft_isTankRotLeft.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotLeft.cpp.i
-.PHONY : srcs/ft_isTankRotLeft.cpp.i
+srcs/tank/set_sprites.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_sprites.cpp.i
+.PHONY : srcs/tank/set_sprites.cpp.i
 
-srcs/ft_isTankRotLeft.s: srcs/ft_isTankRotLeft.cpp.s
-.PHONY : srcs/ft_isTankRotLeft.s
+srcs/tank/set_sprites.s: srcs/tank/set_sprites.cpp.s
+.PHONY : srcs/tank/set_sprites.s
 
 # target to generate assembly for a file
-srcs/ft_isTankRotLeft.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotLeft.cpp.s
-.PHONY : srcs/ft_isTankRotLeft.cpp.s
+srcs/tank/set_sprites.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_sprites.cpp.s
+.PHONY : srcs/tank/set_sprites.cpp.s
 
-srcs/ft_isTankRotRight.o: srcs/ft_isTankRotRight.cpp.o
-.PHONY : srcs/ft_isTankRotRight.o
+srcs/tank/swap_tracks.o: srcs/tank/swap_tracks.cpp.o
+.PHONY : srcs/tank/swap_tracks.o
 
 # target to build an object file
-srcs/ft_isTankRotRight.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotRight.cpp.o
-.PHONY : srcs/ft_isTankRotRight.cpp.o
+srcs/tank/swap_tracks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/swap_tracks.cpp.o
+.PHONY : srcs/tank/swap_tracks.cpp.o
 
-srcs/ft_isTankRotRight.i: srcs/ft_isTankRotRight.cpp.i
-.PHONY : srcs/ft_isTankRotRight.i
+srcs/tank/swap_tracks.i: srcs/tank/swap_tracks.cpp.i
+.PHONY : srcs/tank/swap_tracks.i
 
 # target to preprocess a source file
-srcs/ft_isTankRotRight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotRight.cpp.i
-.PHONY : srcs/ft_isTankRotRight.cpp.i
+srcs/tank/swap_tracks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/swap_tracks.cpp.i
+.PHONY : srcs/tank/swap_tracks.cpp.i
 
-srcs/ft_isTankRotRight.s: srcs/ft_isTankRotRight.cpp.s
-.PHONY : srcs/ft_isTankRotRight.s
+srcs/tank/swap_tracks.s: srcs/tank/swap_tracks.cpp.s
+.PHONY : srcs/tank/swap_tracks.s
 
 # target to generate assembly for a file
-srcs/ft_isTankRotRight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankRotRight.cpp.s
-.PHONY : srcs/ft_isTankRotRight.cpp.s
+srcs/tank/swap_tracks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/swap_tracks.cpp.s
+.PHONY : srcs/tank/swap_tracks.cpp.s
 
-srcs/ft_isTankUp.o: srcs/ft_isTankUp.cpp.o
-.PHONY : srcs/ft_isTankUp.o
+srcs/tank/tank.o: srcs/tank/tank.cpp.o
+.PHONY : srcs/tank/tank.o
 
 # target to build an object file
-srcs/ft_isTankUp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankUp.cpp.o
-.PHONY : srcs/ft_isTankUp.cpp.o
+srcs/tank/tank.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/tank.cpp.o
+.PHONY : srcs/tank/tank.cpp.o
 
-srcs/ft_isTankUp.i: srcs/ft_isTankUp.cpp.i
-.PHONY : srcs/ft_isTankUp.i
+srcs/tank/tank.i: srcs/tank/tank.cpp.i
+.PHONY : srcs/tank/tank.i
 
 # target to preprocess a source file
-srcs/ft_isTankUp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankUp.cpp.i
-.PHONY : srcs/ft_isTankUp.cpp.i
+srcs/tank/tank.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/tank.cpp.i
+.PHONY : srcs/tank/tank.cpp.i
 
-srcs/ft_isTankUp.s: srcs/ft_isTankUp.cpp.s
-.PHONY : srcs/ft_isTankUp.s
+srcs/tank/tank.s: srcs/tank/tank.cpp.s
+.PHONY : srcs/tank/tank.s
 
 # target to generate assembly for a file
-srcs/ft_isTankUp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/ft_isTankUp.cpp.s
-.PHONY : srcs/ft_isTankUp.cpp.s
+srcs/tank/tank.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/tank.cpp.s
+.PHONY : srcs/tank/tank.cpp.s
 
-srcs/tank.o: srcs/tank.cpp.o
-.PHONY : srcs/tank.o
+srcs/tank/update.o: srcs/tank/update.cpp.o
+.PHONY : srcs/tank/update.o
 
 # target to build an object file
-srcs/tank.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank.cpp.o
-.PHONY : srcs/tank.cpp.o
+srcs/tank/update.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/update.cpp.o
+.PHONY : srcs/tank/update.cpp.o
 
-srcs/tank.i: srcs/tank.cpp.i
-.PHONY : srcs/tank.i
+srcs/tank/update.i: srcs/tank/update.cpp.i
+.PHONY : srcs/tank/update.i
 
 # target to preprocess a source file
-srcs/tank.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank.cpp.i
-.PHONY : srcs/tank.cpp.i
+srcs/tank/update.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/update.cpp.i
+.PHONY : srcs/tank/update.cpp.i
 
-srcs/tank.s: srcs/tank.cpp.s
-.PHONY : srcs/tank.s
+srcs/tank/update.s: srcs/tank/update.cpp.s
+.PHONY : srcs/tank/update.s
 
 # target to generate assembly for a file
-srcs/tank.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank.cpp.s
-.PHONY : srcs/tank.cpp.s
+srcs/tank/update.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/update.cpp.s
+.PHONY : srcs/tank/update.cpp.s
+
+srcs/tank_controls/ft_isGunRotLeft.o: srcs/tank_controls/ft_isGunRotLeft.cpp.o
+.PHONY : srcs/tank_controls/ft_isGunRotLeft.o
+
+# target to build an object file
+srcs/tank_controls/ft_isGunRotLeft.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o
+.PHONY : srcs/tank_controls/ft_isGunRotLeft.cpp.o
+
+srcs/tank_controls/ft_isGunRotLeft.i: srcs/tank_controls/ft_isGunRotLeft.cpp.i
+.PHONY : srcs/tank_controls/ft_isGunRotLeft.i
+
+# target to preprocess a source file
+srcs/tank_controls/ft_isGunRotLeft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.i
+.PHONY : srcs/tank_controls/ft_isGunRotLeft.cpp.i
+
+srcs/tank_controls/ft_isGunRotLeft.s: srcs/tank_controls/ft_isGunRotLeft.cpp.s
+.PHONY : srcs/tank_controls/ft_isGunRotLeft.s
+
+# target to generate assembly for a file
+srcs/tank_controls/ft_isGunRotLeft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.s
+.PHONY : srcs/tank_controls/ft_isGunRotLeft.cpp.s
+
+srcs/tank_controls/ft_isGunRotRight.o: srcs/tank_controls/ft_isGunRotRight.cpp.o
+.PHONY : srcs/tank_controls/ft_isGunRotRight.o
+
+# target to build an object file
+srcs/tank_controls/ft_isGunRotRight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o
+.PHONY : srcs/tank_controls/ft_isGunRotRight.cpp.o
+
+srcs/tank_controls/ft_isGunRotRight.i: srcs/tank_controls/ft_isGunRotRight.cpp.i
+.PHONY : srcs/tank_controls/ft_isGunRotRight.i
+
+# target to preprocess a source file
+srcs/tank_controls/ft_isGunRotRight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.i
+.PHONY : srcs/tank_controls/ft_isGunRotRight.cpp.i
+
+srcs/tank_controls/ft_isGunRotRight.s: srcs/tank_controls/ft_isGunRotRight.cpp.s
+.PHONY : srcs/tank_controls/ft_isGunRotRight.s
+
+# target to generate assembly for a file
+srcs/tank_controls/ft_isGunRotRight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.s
+.PHONY : srcs/tank_controls/ft_isGunRotRight.cpp.s
+
+srcs/tank_controls/ft_isGunShot.o: srcs/tank_controls/ft_isGunShot.cpp.o
+.PHONY : srcs/tank_controls/ft_isGunShot.o
+
+# target to build an object file
+srcs/tank_controls/ft_isGunShot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o
+.PHONY : srcs/tank_controls/ft_isGunShot.cpp.o
+
+srcs/tank_controls/ft_isGunShot.i: srcs/tank_controls/ft_isGunShot.cpp.i
+.PHONY : srcs/tank_controls/ft_isGunShot.i
+
+# target to preprocess a source file
+srcs/tank_controls/ft_isGunShot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.i
+.PHONY : srcs/tank_controls/ft_isGunShot.cpp.i
+
+srcs/tank_controls/ft_isGunShot.s: srcs/tank_controls/ft_isGunShot.cpp.s
+.PHONY : srcs/tank_controls/ft_isGunShot.s
+
+# target to generate assembly for a file
+srcs/tank_controls/ft_isGunShot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.s
+.PHONY : srcs/tank_controls/ft_isGunShot.cpp.s
+
+srcs/tank_controls/ft_isTankDown.o: srcs/tank_controls/ft_isTankDown.cpp.o
+.PHONY : srcs/tank_controls/ft_isTankDown.o
+
+# target to build an object file
+srcs/tank_controls/ft_isTankDown.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o
+.PHONY : srcs/tank_controls/ft_isTankDown.cpp.o
+
+srcs/tank_controls/ft_isTankDown.i: srcs/tank_controls/ft_isTankDown.cpp.i
+.PHONY : srcs/tank_controls/ft_isTankDown.i
+
+# target to preprocess a source file
+srcs/tank_controls/ft_isTankDown.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.i
+.PHONY : srcs/tank_controls/ft_isTankDown.cpp.i
+
+srcs/tank_controls/ft_isTankDown.s: srcs/tank_controls/ft_isTankDown.cpp.s
+.PHONY : srcs/tank_controls/ft_isTankDown.s
+
+# target to generate assembly for a file
+srcs/tank_controls/ft_isTankDown.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.s
+.PHONY : srcs/tank_controls/ft_isTankDown.cpp.s
+
+srcs/tank_controls/ft_isTankRotLeft.o: srcs/tank_controls/ft_isTankRotLeft.cpp.o
+.PHONY : srcs/tank_controls/ft_isTankRotLeft.o
+
+# target to build an object file
+srcs/tank_controls/ft_isTankRotLeft.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o
+.PHONY : srcs/tank_controls/ft_isTankRotLeft.cpp.o
+
+srcs/tank_controls/ft_isTankRotLeft.i: srcs/tank_controls/ft_isTankRotLeft.cpp.i
+.PHONY : srcs/tank_controls/ft_isTankRotLeft.i
+
+# target to preprocess a source file
+srcs/tank_controls/ft_isTankRotLeft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.i
+.PHONY : srcs/tank_controls/ft_isTankRotLeft.cpp.i
+
+srcs/tank_controls/ft_isTankRotLeft.s: srcs/tank_controls/ft_isTankRotLeft.cpp.s
+.PHONY : srcs/tank_controls/ft_isTankRotLeft.s
+
+# target to generate assembly for a file
+srcs/tank_controls/ft_isTankRotLeft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.s
+.PHONY : srcs/tank_controls/ft_isTankRotLeft.cpp.s
+
+srcs/tank_controls/ft_isTankRotRight.o: srcs/tank_controls/ft_isTankRotRight.cpp.o
+.PHONY : srcs/tank_controls/ft_isTankRotRight.o
+
+# target to build an object file
+srcs/tank_controls/ft_isTankRotRight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o
+.PHONY : srcs/tank_controls/ft_isTankRotRight.cpp.o
+
+srcs/tank_controls/ft_isTankRotRight.i: srcs/tank_controls/ft_isTankRotRight.cpp.i
+.PHONY : srcs/tank_controls/ft_isTankRotRight.i
+
+# target to preprocess a source file
+srcs/tank_controls/ft_isTankRotRight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.i
+.PHONY : srcs/tank_controls/ft_isTankRotRight.cpp.i
+
+srcs/tank_controls/ft_isTankRotRight.s: srcs/tank_controls/ft_isTankRotRight.cpp.s
+.PHONY : srcs/tank_controls/ft_isTankRotRight.s
+
+# target to generate assembly for a file
+srcs/tank_controls/ft_isTankRotRight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.s
+.PHONY : srcs/tank_controls/ft_isTankRotRight.cpp.s
+
+srcs/tank_controls/ft_isTankUp.o: srcs/tank_controls/ft_isTankUp.cpp.o
+.PHONY : srcs/tank_controls/ft_isTankUp.o
+
+# target to build an object file
+srcs/tank_controls/ft_isTankUp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o
+.PHONY : srcs/tank_controls/ft_isTankUp.cpp.o
+
+srcs/tank_controls/ft_isTankUp.i: srcs/tank_controls/ft_isTankUp.cpp.i
+.PHONY : srcs/tank_controls/ft_isTankUp.i
+
+# target to preprocess a source file
+srcs/tank_controls/ft_isTankUp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.i
+.PHONY : srcs/tank_controls/ft_isTankUp.cpp.i
+
+srcs/tank_controls/ft_isTankUp.s: srcs/tank_controls/ft_isTankUp.cpp.s
+.PHONY : srcs/tank_controls/ft_isTankUp.s
+
+# target to generate assembly for a file
+srcs/tank_controls/ft_isTankUp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.s
+.PHONY : srcs/tank_controls/ft_isTankUp.cpp.s
 
 # Help Target
 help:
@@ -644,30 +812,51 @@ help:
 	@echo "... sfml/ft_load_texture.o"
 	@echo "... sfml/ft_load_texture.i"
 	@echo "... sfml/ft_load_texture.s"
-	@echo "... srcs/ft_isGunRotLeft.o"
-	@echo "... srcs/ft_isGunRotLeft.i"
-	@echo "... srcs/ft_isGunRotLeft.s"
-	@echo "... srcs/ft_isGunRotRight.o"
-	@echo "... srcs/ft_isGunRotRight.i"
-	@echo "... srcs/ft_isGunRotRight.s"
-	@echo "... srcs/ft_isGunShot.o"
-	@echo "... srcs/ft_isGunShot.i"
-	@echo "... srcs/ft_isGunShot.s"
-	@echo "... srcs/ft_isTankDown.o"
-	@echo "... srcs/ft_isTankDown.i"
-	@echo "... srcs/ft_isTankDown.s"
-	@echo "... srcs/ft_isTankRotLeft.o"
-	@echo "... srcs/ft_isTankRotLeft.i"
-	@echo "... srcs/ft_isTankRotLeft.s"
-	@echo "... srcs/ft_isTankRotRight.o"
-	@echo "... srcs/ft_isTankRotRight.i"
-	@echo "... srcs/ft_isTankRotRight.s"
-	@echo "... srcs/ft_isTankUp.o"
-	@echo "... srcs/ft_isTankUp.i"
-	@echo "... srcs/ft_isTankUp.s"
-	@echo "... srcs/tank.o"
-	@echo "... srcs/tank.i"
-	@echo "... srcs/tank.s"
+	@echo "... srcs/tank/draw.o"
+	@echo "... srcs/tank/draw.i"
+	@echo "... srcs/tank/draw.s"
+	@echo "... srcs/tank/load_textures.o"
+	@echo "... srcs/tank/load_textures.i"
+	@echo "... srcs/tank/load_textures.s"
+	@echo "... srcs/tank/set_origin.o"
+	@echo "... srcs/tank/set_origin.i"
+	@echo "... srcs/tank/set_origin.s"
+	@echo "... srcs/tank/set_pos.o"
+	@echo "... srcs/tank/set_pos.i"
+	@echo "... srcs/tank/set_pos.s"
+	@echo "... srcs/tank/set_sprites.o"
+	@echo "... srcs/tank/set_sprites.i"
+	@echo "... srcs/tank/set_sprites.s"
+	@echo "... srcs/tank/swap_tracks.o"
+	@echo "... srcs/tank/swap_tracks.i"
+	@echo "... srcs/tank/swap_tracks.s"
+	@echo "... srcs/tank/tank.o"
+	@echo "... srcs/tank/tank.i"
+	@echo "... srcs/tank/tank.s"
+	@echo "... srcs/tank/update.o"
+	@echo "... srcs/tank/update.i"
+	@echo "... srcs/tank/update.s"
+	@echo "... srcs/tank_controls/ft_isGunRotLeft.o"
+	@echo "... srcs/tank_controls/ft_isGunRotLeft.i"
+	@echo "... srcs/tank_controls/ft_isGunRotLeft.s"
+	@echo "... srcs/tank_controls/ft_isGunRotRight.o"
+	@echo "... srcs/tank_controls/ft_isGunRotRight.i"
+	@echo "... srcs/tank_controls/ft_isGunRotRight.s"
+	@echo "... srcs/tank_controls/ft_isGunShot.o"
+	@echo "... srcs/tank_controls/ft_isGunShot.i"
+	@echo "... srcs/tank_controls/ft_isGunShot.s"
+	@echo "... srcs/tank_controls/ft_isTankDown.o"
+	@echo "... srcs/tank_controls/ft_isTankDown.i"
+	@echo "... srcs/tank_controls/ft_isTankDown.s"
+	@echo "... srcs/tank_controls/ft_isTankRotLeft.o"
+	@echo "... srcs/tank_controls/ft_isTankRotLeft.i"
+	@echo "... srcs/tank_controls/ft_isTankRotLeft.s"
+	@echo "... srcs/tank_controls/ft_isTankRotRight.o"
+	@echo "... srcs/tank_controls/ft_isTankRotRight.i"
+	@echo "... srcs/tank_controls/ft_isTankRotRight.s"
+	@echo "... srcs/tank_controls/ft_isTankUp.o"
+	@echo "... srcs/tank_controls/ft_isTankUp.i"
+	@echo "... srcs/tank_controls/ft_isTankUp.s"
 .PHONY : help
 
 

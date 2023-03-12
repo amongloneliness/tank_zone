@@ -6,18 +6,46 @@ project(game)
 
 # cpp файлы
 set(SOURCE_CPP 
-    main.cpp    sfml/ft_load_texture.cpp   sfml/ft_isKeyA.cpp    sfml/ft_isKeyLeft.cpp
-    sfml/ft_isKeySpace.cpp    sfml/ft_isKeyD.cpp    sfml/ft_isKeyRight.cpp
-    sfml/ft_isKeyUp.cpp    sfml/ft_isKeyDown.cpp    sfml/ft_isKeyS.cpp
-    sfml/ft_isKeyW.cpp    srcs/tank.cpp    srcs/ft_isTankUp.cpp
-    srcs/ft_isTankDown.cpp    srcs/ft_isTankRotLeft.cpp    srcs/ft_isTankRotRight.cpp
-    srcs/ft_isGunShot.cpp    srcs/ft_isGunRotLeft.cpp    srcs/ft_isGunRotRight.cpp
+    main.cpp
+    sfml/ft_load_texture.cpp
+    sfml/ft_isKeyA.cpp
+    sfml/ft_isKeyLeft.cpp
+    sfml/ft_isKeySpace.cpp
+    sfml/ft_isKeyD.cpp
+    sfml/ft_isKeyRight.cpp
+    sfml/ft_isKeyUp.cpp
+    sfml/ft_isKeyDown.cpp
+    sfml/ft_isKeyS.cpp
+    sfml/ft_isKeyW.cpp
+
+    # -- методы класса Tank --
+    srcs/tank/draw.cpp
+    srcs/tank/load_textures.cpp
+    srcs/tank/set_origin.cpp
+    srcs/tank/set_pos.cpp
+    srcs/tank/set_sprites.cpp
+    srcs/tank/swap_tracks.cpp
+    srcs/tank/tank.cpp
+    srcs/tank/update.cpp
+
+    # -- функции управления танком --
+    srcs/tank_controls/ft_isTankUp.cpp
+    srcs/tank_controls/ft_isTankDown.cpp
+    srcs/tank_controls/ft_isTankRotLeft.cpp
+    srcs/tank_controls/ft_isTankRotRight.cpp
+    srcs/tank_controls/ft_isGunShot.cpp
+    srcs/tank_controls/ft_isGunRotLeft.cpp
+    srcs/tank_controls/ft_isGunRotRight.cpp
 )
 
 # заголовочные файлы
 set(SOURCE_LIB
-    main.cpp    sfml/h_sfml.h    includes/h_sprites_path.h
-    includes/h_map.h    includes/h_tank.h    includes/h_tank_control.h
+    main.cpp
+    sfml/h_sfml.h
+    includes/h_sprites_path.h
+    includes/h_map.h
+    includes/h_tank.h
+    includes/h_tank_control.h
 )
 
 find_package(SFML 2.5 COMPONENTS graphics audio REQURED)
