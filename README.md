@@ -23,15 +23,15 @@
 
 Содержимое файла compile.sh
 ---------------
-> #!/bin/bash/
-> mkdir build
-> cd build
-> cmake ..
-> cmake --build .
-> cd ..
+> *#!/bin/bash/*
+> *mkdir build*
+> *cd build*
+> *cmake ..
+> *cmake --build .*
+> *cd ..*
 
 
 Содержимое файла start.sh
 ---------------
-> #!/bin/bash/
-> ./build/game
+> *#!/bin/bash/*
+> *./build/game*
