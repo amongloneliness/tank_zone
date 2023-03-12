@@ -577,6 +577,30 @@ srcs/tank/get_moveY.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.s
 .PHONY : srcs/tank/get_moveY.cpp.s
 
+srcs/tank/load_soundbuffers.o: srcs/tank/load_soundbuffers.cpp.o
+.PHONY : srcs/tank/load_soundbuffers.o
+
+# target to build an object file
+srcs/tank/load_soundbuffers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/load_soundbuffers.cpp.o
+.PHONY : srcs/tank/load_soundbuffers.cpp.o
+
+srcs/tank/load_soundbuffers.i: srcs/tank/load_soundbuffers.cpp.i
+.PHONY : srcs/tank/load_soundbuffers.i
+
+# target to preprocess a source file
+srcs/tank/load_soundbuffers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/load_soundbuffers.cpp.i
+.PHONY : srcs/tank/load_soundbuffers.cpp.i
+
+srcs/tank/load_soundbuffers.s: srcs/tank/load_soundbuffers.cpp.s
+.PHONY : srcs/tank/load_soundbuffers.s
+
+# target to generate assembly for a file
+srcs/tank/load_soundbuffers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/load_soundbuffers.cpp.s
+.PHONY : srcs/tank/load_soundbuffers.cpp.s
+
 srcs/tank/load_textures.o: srcs/tank/load_textures.cpp.o
 .PHONY : srcs/tank/load_textures.o
 
@@ -672,6 +696,30 @@ srcs/tank/set_pos.s: srcs/tank/set_pos.cpp.s
 srcs/tank/set_pos.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_pos.cpp.s
 .PHONY : srcs/tank/set_pos.cpp.s
+
+srcs/tank/set_sounds.o: srcs/tank/set_sounds.cpp.o
+.PHONY : srcs/tank/set_sounds.o
+
+# target to build an object file
+srcs/tank/set_sounds.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_sounds.cpp.o
+.PHONY : srcs/tank/set_sounds.cpp.o
+
+srcs/tank/set_sounds.i: srcs/tank/set_sounds.cpp.i
+.PHONY : srcs/tank/set_sounds.i
+
+# target to preprocess a source file
+srcs/tank/set_sounds.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_sounds.cpp.i
+.PHONY : srcs/tank/set_sounds.cpp.i
+
+srcs/tank/set_sounds.s: srcs/tank/set_sounds.cpp.s
+.PHONY : srcs/tank/set_sounds.s
+
+# target to generate assembly for a file
+srcs/tank/set_sounds.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_sounds.cpp.s
+.PHONY : srcs/tank/set_sounds.cpp.s
 
 srcs/tank/set_sprites.o: srcs/tank/set_sprites.cpp.o
 .PHONY : srcs/tank/set_sprites.o
@@ -1001,6 +1049,9 @@ help:
 	@echo "... srcs/tank/get_moveY.o"
 	@echo "... srcs/tank/get_moveY.i"
 	@echo "... srcs/tank/get_moveY.s"
+	@echo "... srcs/tank/load_soundbuffers.o"
+	@echo "... srcs/tank/load_soundbuffers.i"
+	@echo "... srcs/tank/load_soundbuffers.s"
 	@echo "... srcs/tank/load_textures.o"
 	@echo "... srcs/tank/load_textures.i"
 	@echo "... srcs/tank/load_textures.s"
@@ -1013,6 +1064,9 @@ help:
 	@echo "... srcs/tank/set_pos.o"
 	@echo "... srcs/tank/set_pos.i"
 	@echo "... srcs/tank/set_pos.s"
+	@echo "... srcs/tank/set_sounds.o"
+	@echo "... srcs/tank/set_sounds.i"
+	@echo "... srcs/tank/set_sounds.s"
 	@echo "... srcs/tank/set_sprites.o"
 	@echo "... srcs/tank/set_sprites.i"
 	@echo "... srcs/tank/set_sprites.s"

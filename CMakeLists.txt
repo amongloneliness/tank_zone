@@ -21,8 +21,10 @@ set(SOURCE_CPP
     # -- методы класса Tank --
     srcs/tank/draw.cpp
     srcs/tank/load_textures.cpp
+    srcs/tank/load_soundbuffers.cpp
     srcs/tank/set_origin.cpp
     srcs/tank/set_pos.cpp
+    srcs/tank/set_sounds.cpp
     srcs/tank/set_sprites.cpp
     srcs/tank/swap_tracks.cpp
     srcs/tank/tank.cpp
@@ -52,6 +54,7 @@ set(SOURCE_LIB
     main.cpp
     sfml/h_sfml.h
     includes/h_sprites_path.h
+    includes/h_sounds_path.h
     includes/h_map.h
     includes/h_tank.h
     includes/h_tank_control.h

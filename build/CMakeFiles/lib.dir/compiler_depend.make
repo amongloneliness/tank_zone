@@ -348,6 +348,7 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../includes/h_sounds_path.h \
   ../includes/h_tank_control.h
 
 
@@ -574,6 +575,8 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/11/bits/postypes.h:
+
+../includes/h_sounds_path.h:
 
 /usr/local/include/SFML/System/Mutex.hpp:
 

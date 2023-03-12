@@ -3,6 +3,7 @@
 
 #include <math.h>
 #include "h_sprites_path.h"
+#include "h_sounds_path.h"
 #include "../sfml/h_sfml.h"
 #include "h_tank_control.h"
 
@@ -26,8 +27,16 @@ class Tank {
         Sprite spr_gun;             // спрайт:  орудие танка
         Sprite spr_track_1;         // спрайт:  гусеница танка 1
         Sprite spr_track_2;         // спрайт:  гусеница танка 2
+        SoundBuffer sb_rattle;      // буфер звука: движение танка
+        SoundBuffer sb_rattle_end;  // буфер звука: остановка танка
+        SoundBuffer sb_fire;        // буфер звука: выстрел из орудия
+        Sound sound_rattle;         // звук: движение танка
+        Sound sound_rattle_end;     // звук: остановка танка
+        Sound sound_fire;           // звук: выстрел из орудия
         
         void load_textures();       // загрузка текстур
+        void load_soundbuffers();   // загрузка wav
+        void set_sounds();          // настройка звука
         void set_sprites();         // настройка спрайтов
         void set_origin();          // настройка центров изображений
         void draw(RenderWindow &w);               // отрисовка спрайтов

@@ -87,6 +87,7 @@ CMakeFiles/game.dir/srcs/tank/set_sprites.cpp.o: \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
  /home/cerberos/github/tank_zone_c-/srcs/tank/../../includes/h_sprites_path.h \
+ /home/cerberos/github/tank_zone_c-/srcs/tank/../../includes/h_sounds_path.h \
  /home/cerberos/github/tank_zone_c-/srcs/tank/../../includes/../sfml/h_sfml.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \

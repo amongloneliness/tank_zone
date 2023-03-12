@@ -11,6 +11,9 @@ void Tank::update(
 
     // поворот корпуса
     if (ft_isTankRotLeft() != ft_isTankRotRight()) {
+        if (sound_rattle.getStatus() != Sound::Playing)
+            sound_rattle.play();
+            
         float temp_rotate = ft_isTankRotRight() ? 
             rotate_speed * time : -rotate_speed * time;
 
@@ -32,6 +35,9 @@ void Tank::update(
 
     // движение танка
     if (ft_isTankUp() != ft_isTankDown()) {
+        if (sound_rattle.getStatus() != Sound::Playing)
+            sound_rattle.play();
+
         float temp_speed = ft_isTankUp() ? speed * time : -speed * time;
         float deg = (spr_hull.getRotation() - 90) / 180 * M_PI;
         float new_moveX = moveX + temp_speed * cos(deg);
@@ -44,11 +50,23 @@ void Tank::update(
             moveY = new_moveY;
 
         // меняем текстуры гусениц
-        if (ft_isTankRotLeft() == ft_isTankRotRight())
+        if (ft_isTankRotLeft() == ft_isTankRotRight()) {
             swap_tracks();
+        }
     }
 
-    /* стрельба */
+    // остановка звука
+    if (ft_isTankUp() == ft_isTankDown() && ft_isTankRotLeft() == ft_isTankRotRight()) {
+        if (sound_rattle.getStatus() == Sound::Playing) {
+            sound_rattle.stop();
+            sound_rattle_end.play();
+        }
+    }
+
+    // стрельба из орудия
+    if (ft_isGunShot()) {
+        sound_fire.play();
+    }
 
     draw(w);    // отрисовка объектов
 

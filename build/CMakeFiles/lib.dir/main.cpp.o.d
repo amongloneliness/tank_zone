@@ -300,4 +300,5 @@ CMakeFiles/lib.dir/main.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+ /home/cerberos/github/tank_zone_c-/includes/h_sounds_path.h \
  /home/cerberos/github/tank_zone_c-/includes/h_tank_control.h
