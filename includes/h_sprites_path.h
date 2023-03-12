@@ -26,23 +26,23 @@
 */
 
 
-#define BLOCK_A_PATH    "files/locations/blocks/Block_A.png"
-#define BLOCK_B_PATH    "files/locations/blocks/Block_B.png"
-#define BLOCK_C_PATH    "files/locations/blocks/Block_C.png"
+#define BLOCK_A_PATH    "files/sprites/locations/blocks/Block_A.png"
+#define BLOCK_B_PATH    "files/sprites/locations/blocks/Block_B.png"
+#define BLOCK_C_PATH    "files/sprites/locations/blocks/Block_C.png"
 
 #define BLOCK_W 128     // ширина спрайта   [кол-во пикселей]
 #define BLOCK_H 128     // высота спрайта   [кол-во пикселей]
 
-#define DECOR_A_PATH    "files/locations/decorations/Decor_Tile_A.png"      
-#define DECOR_B_PATH    "files/locations/decorations/Decor_Tile_B.png"
+#define DECOR_A_PATH    "files/sprites/locations/decorations/Decor_Tile_A.png"      
+#define DECOR_B_PATH    "files/sprites/locations/decorations/Decor_Tile_B.png"
 
 #define DECOR_W 128     // ширина спрайта   [кол-во пикселей]
 #define DECOR_H 128     // высота спрайта   [кол-во пикселей]
 
-#define TANK_HULL_PATH       "files/tank/Hull.png"
-#define TANK_GUN_PATH        "files/tank/Gun.png"
-#define TANK_TRACK_1_PATH    "files/tank/Track_1.png"
-#define TANK_TRACK_2_PATH    "files/tank/Track_2.png"
+#define TANK_HULL_PATH       "files/sprites/tank/Hull.png"
+#define TANK_GUN_PATH        "files/sprites/tank/Gun.png"
+#define TANK_TRACK_1_PATH    "files/sprites/tank/Track_1.png"
+#define TANK_TRACK_2_PATH    "files/sprites/tank/Track_2.png"
 
 #define TANK_HULL_W   256     // ширина спрайта   [кол-во пикселей] 
 #define TANK_HULL_H   256     // высота спрайта   [кол-во пикселей]     
