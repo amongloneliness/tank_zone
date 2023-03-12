@@ -23,6 +23,8 @@
     TANK_GUN        орудие танка
     TANK_TRACK      гусеница танка
 
+    BULLET          пуля
+
 */
 
 
@@ -49,8 +51,11 @@
 #define TANK_GUN_W    76      // ширина спрайта   [кол-во пикселей]  
 #define TANK_GUN_H    194     // высота спрайта   [кол-во пикселей]      
 #define TANK_TRACK_W  42      // ширина спрайта   [кол-во пикселей]    
-#define TANK_TRACK_H  246     // высота спрайта   [кол-во пикселей]    
+#define TANK_TRACK_H  246     // высота спрайта   [кол-во пикселей]   
 
+#define BULLET_PATH     "files/sprites/other/Bullet.png"
+#define BULLET_W    128
+#define BULLET_H    128
 
 
 #endif

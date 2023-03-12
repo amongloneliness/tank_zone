@@ -6,12 +6,14 @@
 #include "h_sounds_path.h"
 #include "../sfml/h_sfml.h"
 #include "h_tank_control.h"
+#include "h_bullet.h"
 
 class Tank {
     private:
         float speed;                // скорость передвижения танка
         float rotate_speed;         // скорость поворота танка
         float rotate_gun_speed;     // скорость поворота оружия
+        float gun_speed;            // скорость стрельбы оружия
         float moveX;                // движение по OX
         float moveY;                // движение по OY
         float border_min_x;         // ограничение движения по OX
@@ -33,6 +35,7 @@ class Tank {
         Sound sound_rattle;         // звук: движение танка
         Sound sound_rattle_end;     // звук: остановка танка
         Sound sound_fire;           // звук: выстрел из орудия
+        Bullet bullet;              // объект пуля
         
         void load_textures();       // загрузка текстур
         void load_soundbuffers();   // загрузка wav
@@ -45,9 +48,10 @@ class Tank {
     public:
         // конструктор
         Tank(
-            const float &t_speed,            // скорость передвижения танка
-            const float &t_rotate_speed,     // скорость поворота танка
-            const float &t_rotate_gun_speed  // скорость поворота оружия
+            const float &t_speed,             // скорость передвижения танка
+            const float &t_rotate_speed,      // скорость поворота танка
+            const float &t_rotate_gun_speed,  // скорость поворота оружия
+            const float &t_gun_speed          // скорость стрельбы оружия
         );
 
         // обновление / отрисовка

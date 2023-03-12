@@ -90,8 +90,10 @@ int main(void)
     Clock clock;        // объект: часы
     float time = 0;     // переменная хранимая игровое время в микросекундах
     
-    /* игровые объекты */
-    Tank player = Tank(0.5f, 0.3f, 0.3f);
+    // объект: танк
+    Tank player = Tank(0.4f, 0.2f, 0.3f, 3.f);
+
+    // объект: игровая локация
     Map map = Map(
         str_map,
         str_map_borders,
@@ -113,6 +115,8 @@ int main(void)
         (map_height - 3) * BLOCK_H
     );
 
+
+    /* обработка событий окна */
     while (window.isOpen()) {
         // перерасчет времени
         time = clock.getElapsedTime().asMicroseconds() / 1000;

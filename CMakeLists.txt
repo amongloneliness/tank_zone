@@ -47,6 +47,11 @@ set(SOURCE_CPP
     srcs/map/load_textures.cpp
     srcs/map/update.cpp
     srcs/map/set_offset.cpp
+
+    # -- методы класса Bullet --
+    srcs/bullet/bullet.cpp
+    srcs/bullet/update.cpp
+    srcs/bullet/shoot.cpp
 )
 
 # заголовочные файлы
@@ -58,6 +63,7 @@ set(SOURCE_LIB
     includes/h_map.h
     includes/h_tank.h
     includes/h_tank_control.h
+    includes/h_bullet.h
 )
 
 find_package(SFML 2.5 COMPONENTS graphics audio REQURED)

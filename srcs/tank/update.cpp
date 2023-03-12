@@ -65,9 +65,23 @@ void Tank::update(
 
     // стрельба из орудия
     if (ft_isGunShot()) {
-        sound_fire.play();
+        if (sound_fire.getStatus() == Sound::Stopped) {
+            float deg = (spr_gun.getRotation() - 90) / 180 * M_PI;
+
+            bullet.shoot(time,
+                gun_speed,
+                cos(deg),
+                sin(deg),
+                spr_gun.getPosition().x,
+                spr_gun.getPosition().y,
+                spr_gun.getRotation()
+            );
+            
+            sound_fire.play();
+        }
     }
 
+    bullet.update(time, w);
     draw(w);    // отрисовка объектов
 
     return;
