@@ -18,4 +18,20 @@
 > 5. **cd ..**
 > 6. **./build/game**
 
+
 Запуск программы относительно корня проекта: ./build/game
+
+Содержимое файла compile.sh
+---------------
+#!/bin/bash/
+mkdir build
+cd build
+cmake ..
+cmake --build .
+cd ..
+
+
+Содержимое файла start.sh
+---------------
+#!/bin/bash/
+./build/game
