@@ -27,6 +27,9 @@ set(SOURCE_CPP
     srcs/tank/swap_tracks.cpp
     srcs/tank/tank.cpp
     srcs/tank/update.cpp
+    srcs/tank/get_moveX.cpp
+    srcs/tank/get_moveY.cpp
+    srcs/tank/set_borders.cpp
 
     # -- функции управления танком --
     srcs/tank_controls/ft_isTankUp.cpp
@@ -36,6 +39,12 @@ set(SOURCE_CPP
     srcs/tank_controls/ft_isGunShot.cpp
     srcs/tank_controls/ft_isGunRotLeft.cpp
     srcs/tank_controls/ft_isGunRotRight.cpp
+
+    # -- методы класса Map --
+    srcs/map/map.cpp
+    srcs/map/load_textures.cpp
+    srcs/map/update.cpp
+    srcs/map/set_offset.cpp
 )
 
 # заголовочные файлы

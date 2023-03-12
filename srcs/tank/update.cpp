@@ -34,9 +34,14 @@ void Tank::update(
     if (ft_isTankUp() != ft_isTankDown()) {
         float temp_speed = ft_isTankUp() ? speed * time : -speed * time;
         float deg = (spr_hull.getRotation() - 90) / 180 * M_PI;
+        float new_moveX = moveX + temp_speed * cos(deg);
+        float new_moveY = moveY + temp_speed * sin(deg);
+        
+        if (new_moveX > border_min_x && new_moveX < border_max_x)
+            moveX = new_moveX;
 
-        moveX += temp_speed * cos(deg);
-        moveY += temp_speed * sin(deg);
+        if (new_moveY > border_min_y && new_moveY < border_max_y)
+            moveY = new_moveY;
 
         // меняем текстуры гусениц
         if (ft_isTankRotLeft() == ft_isTankRotRight())

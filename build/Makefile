@@ -409,6 +409,102 @@ sfml/ft_load_texture.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/sfml/ft_load_texture.cpp.s
 .PHONY : sfml/ft_load_texture.cpp.s
 
+srcs/map/load_textures.o: srcs/map/load_textures.cpp.o
+.PHONY : srcs/map/load_textures.o
+
+# target to build an object file
+srcs/map/load_textures.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/load_textures.cpp.o
+.PHONY : srcs/map/load_textures.cpp.o
+
+srcs/map/load_textures.i: srcs/map/load_textures.cpp.i
+.PHONY : srcs/map/load_textures.i
+
+# target to preprocess a source file
+srcs/map/load_textures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/load_textures.cpp.i
+.PHONY : srcs/map/load_textures.cpp.i
+
+srcs/map/load_textures.s: srcs/map/load_textures.cpp.s
+.PHONY : srcs/map/load_textures.s
+
+# target to generate assembly for a file
+srcs/map/load_textures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/load_textures.cpp.s
+.PHONY : srcs/map/load_textures.cpp.s
+
+srcs/map/map.o: srcs/map/map.cpp.o
+.PHONY : srcs/map/map.o
+
+# target to build an object file
+srcs/map/map.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/map.cpp.o
+.PHONY : srcs/map/map.cpp.o
+
+srcs/map/map.i: srcs/map/map.cpp.i
+.PHONY : srcs/map/map.i
+
+# target to preprocess a source file
+srcs/map/map.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/map.cpp.i
+.PHONY : srcs/map/map.cpp.i
+
+srcs/map/map.s: srcs/map/map.cpp.s
+.PHONY : srcs/map/map.s
+
+# target to generate assembly for a file
+srcs/map/map.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/map.cpp.s
+.PHONY : srcs/map/map.cpp.s
+
+srcs/map/set_offset.o: srcs/map/set_offset.cpp.o
+.PHONY : srcs/map/set_offset.o
+
+# target to build an object file
+srcs/map/set_offset.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/set_offset.cpp.o
+.PHONY : srcs/map/set_offset.cpp.o
+
+srcs/map/set_offset.i: srcs/map/set_offset.cpp.i
+.PHONY : srcs/map/set_offset.i
+
+# target to preprocess a source file
+srcs/map/set_offset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/set_offset.cpp.i
+.PHONY : srcs/map/set_offset.cpp.i
+
+srcs/map/set_offset.s: srcs/map/set_offset.cpp.s
+.PHONY : srcs/map/set_offset.s
+
+# target to generate assembly for a file
+srcs/map/set_offset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/set_offset.cpp.s
+.PHONY : srcs/map/set_offset.cpp.s
+
+srcs/map/update.o: srcs/map/update.cpp.o
+.PHONY : srcs/map/update.o
+
+# target to build an object file
+srcs/map/update.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/update.cpp.o
+.PHONY : srcs/map/update.cpp.o
+
+srcs/map/update.i: srcs/map/update.cpp.i
+.PHONY : srcs/map/update.i
+
+# target to preprocess a source file
+srcs/map/update.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/update.cpp.i
+.PHONY : srcs/map/update.cpp.i
+
+srcs/map/update.s: srcs/map/update.cpp.s
+.PHONY : srcs/map/update.s
+
+# target to generate assembly for a file
+srcs/map/update.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/map/update.cpp.s
+.PHONY : srcs/map/update.cpp.s
+
 srcs/tank/draw.o: srcs/tank/draw.cpp.o
 .PHONY : srcs/tank/draw.o
 
@@ -433,6 +529,54 @@ srcs/tank/draw.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/draw.cpp.s
 .PHONY : srcs/tank/draw.cpp.s
 
+srcs/tank/get_moveX.o: srcs/tank/get_moveX.cpp.o
+.PHONY : srcs/tank/get_moveX.o
+
+# target to build an object file
+srcs/tank/get_moveX.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.o
+.PHONY : srcs/tank/get_moveX.cpp.o
+
+srcs/tank/get_moveX.i: srcs/tank/get_moveX.cpp.i
+.PHONY : srcs/tank/get_moveX.i
+
+# target to preprocess a source file
+srcs/tank/get_moveX.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.i
+.PHONY : srcs/tank/get_moveX.cpp.i
+
+srcs/tank/get_moveX.s: srcs/tank/get_moveX.cpp.s
+.PHONY : srcs/tank/get_moveX.s
+
+# target to generate assembly for a file
+srcs/tank/get_moveX.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.s
+.PHONY : srcs/tank/get_moveX.cpp.s
+
+srcs/tank/get_moveY.o: srcs/tank/get_moveY.cpp.o
+.PHONY : srcs/tank/get_moveY.o
+
+# target to build an object file
+srcs/tank/get_moveY.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.o
+.PHONY : srcs/tank/get_moveY.cpp.o
+
+srcs/tank/get_moveY.i: srcs/tank/get_moveY.cpp.i
+.PHONY : srcs/tank/get_moveY.i
+
+# target to preprocess a source file
+srcs/tank/get_moveY.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.i
+.PHONY : srcs/tank/get_moveY.cpp.i
+
+srcs/tank/get_moveY.s: srcs/tank/get_moveY.cpp.s
+.PHONY : srcs/tank/get_moveY.s
+
+# target to generate assembly for a file
+srcs/tank/get_moveY.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.s
+.PHONY : srcs/tank/get_moveY.cpp.s
+
 srcs/tank/load_textures.o: srcs/tank/load_textures.cpp.o
 .PHONY : srcs/tank/load_textures.o
 
@@ -456,6 +600,30 @@ srcs/tank/load_textures.s: srcs/tank/load_textures.cpp.s
 srcs/tank/load_textures.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/load_textures.cpp.s
 .PHONY : srcs/tank/load_textures.cpp.s
+
+srcs/tank/set_borders.o: srcs/tank/set_borders.cpp.o
+.PHONY : srcs/tank/set_borders.o
+
+# target to build an object file
+srcs/tank/set_borders.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_borders.cpp.o
+.PHONY : srcs/tank/set_borders.cpp.o
+
+srcs/tank/set_borders.i: srcs/tank/set_borders.cpp.i
+.PHONY : srcs/tank/set_borders.i
+
+# target to preprocess a source file
+srcs/tank/set_borders.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_borders.cpp.i
+.PHONY : srcs/tank/set_borders.cpp.i
+
+srcs/tank/set_borders.s: srcs/tank/set_borders.cpp.s
+.PHONY : srcs/tank/set_borders.s
+
+# target to generate assembly for a file
+srcs/tank/set_borders.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/srcs/tank/set_borders.cpp.s
+.PHONY : srcs/tank/set_borders.cpp.s
 
 srcs/tank/set_origin.o: srcs/tank/set_origin.cpp.o
 .PHONY : srcs/tank/set_origin.o
@@ -812,12 +980,33 @@ help:
 	@echo "... sfml/ft_load_texture.o"
 	@echo "... sfml/ft_load_texture.i"
 	@echo "... sfml/ft_load_texture.s"
+	@echo "... srcs/map/load_textures.o"
+	@echo "... srcs/map/load_textures.i"
+	@echo "... srcs/map/load_textures.s"
+	@echo "... srcs/map/map.o"
+	@echo "... srcs/map/map.i"
+	@echo "... srcs/map/map.s"
+	@echo "... srcs/map/set_offset.o"
+	@echo "... srcs/map/set_offset.i"
+	@echo "... srcs/map/set_offset.s"
+	@echo "... srcs/map/update.o"
+	@echo "... srcs/map/update.i"
+	@echo "... srcs/map/update.s"
 	@echo "... srcs/tank/draw.o"
 	@echo "... srcs/tank/draw.i"
 	@echo "... srcs/tank/draw.s"
+	@echo "... srcs/tank/get_moveX.o"
+	@echo "... srcs/tank/get_moveX.i"
+	@echo "... srcs/tank/get_moveX.s"
+	@echo "... srcs/tank/get_moveY.o"
+	@echo "... srcs/tank/get_moveY.i"
+	@echo "... srcs/tank/get_moveY.s"
 	@echo "... srcs/tank/load_textures.o"
 	@echo "... srcs/tank/load_textures.i"
 	@echo "... srcs/tank/load_textures.s"
+	@echo "... srcs/tank/set_borders.o"
+	@echo "... srcs/tank/set_borders.i"
+	@echo "... srcs/tank/set_borders.s"
 	@echo "... srcs/tank/set_origin.o"
 	@echo "... srcs/tank/set_origin.i"
 	@echo "... srcs/tank/set_origin.s"

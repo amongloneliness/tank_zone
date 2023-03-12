@@ -11,6 +11,7 @@ Tank::Tank(
 
     /* значения по-умолчанию */
     tracks_frame = moveX = moveY = 0;
+    border_min_x = border_max_x = border_min_y = border_max_y = 0;
 
     load_textures();    // загрузка текстур
     set_sprites();      // настройка спрайтов

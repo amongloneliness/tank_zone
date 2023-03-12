@@ -335,10 +335,52 @@ CMakeFiles/game.dir/srcs/tank/update.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/srcs/tank/update.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cerberos/github/tank_zone_c-/srcs/tank/update.cpp -o CMakeFiles/game.dir/srcs/tank/update.cpp.s
 
+CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.o: ../srcs/tank/get_moveX.cpp
+CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.o -MF CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.o.d -o CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/tank/get_moveX.cpp
+
+CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cerberos/github/tank_zone_c-/srcs/tank/get_moveX.cpp > CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.i
+
+CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cerberos/github/tank_zone_c-/srcs/tank/get_moveX.cpp -o CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.s
+
+CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.o: ../srcs/tank/get_moveY.cpp
+CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.o -MF CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.o.d -o CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/tank/get_moveY.cpp
+
+CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cerberos/github/tank_zone_c-/srcs/tank/get_moveY.cpp > CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.i
+
+CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cerberos/github/tank_zone_c-/srcs/tank/get_moveY.cpp -o CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.s
+
+CMakeFiles/game.dir/srcs/tank/set_borders.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/srcs/tank/set_borders.cpp.o: ../srcs/tank/set_borders.cpp
+CMakeFiles/game.dir/srcs/tank/set_borders.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game.dir/srcs/tank/set_borders.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/tank/set_borders.cpp.o -MF CMakeFiles/game.dir/srcs/tank/set_borders.cpp.o.d -o CMakeFiles/game.dir/srcs/tank/set_borders.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/tank/set_borders.cpp
+
+CMakeFiles/game.dir/srcs/tank/set_borders.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/srcs/tank/set_borders.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cerberos/github/tank_zone_c-/srcs/tank/set_borders.cpp > CMakeFiles/game.dir/srcs/tank/set_borders.cpp.i
+
+CMakeFiles/game.dir/srcs/tank/set_borders.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/srcs/tank/set_borders.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cerberos/github/tank_zone_c-/srcs/tank/set_borders.cpp -o CMakeFiles/game.dir/srcs/tank/set_borders.cpp.s
+
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o: ../srcs/tank_controls/ft_isTankUp.cpp
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o -MF CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o.d -o CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/tank_controls/ft_isTankUp.cpp
 
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.i: cmake_force
@@ -352,7 +394,7 @@ CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.s: cmake_force
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o: ../srcs/tank_controls/ft_isTankDown.cpp
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o -MF CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o.d -o CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/tank_controls/ft_isTankDown.cpp
 
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.i: cmake_force
@@ -366,7 +408,7 @@ CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.s: cmake_force
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o: ../srcs/tank_controls/ft_isTankRotLeft.cpp
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o -MF CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o.d -o CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/tank_controls/ft_isTankRotLeft.cpp
 
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.i: cmake_force
@@ -380,7 +422,7 @@ CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.s: cmake_force
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o: ../srcs/tank_controls/ft_isTankRotRight.cpp
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o -MF CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o.d -o CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/tank_controls/ft_isTankRotRight.cpp
 
 CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.i: cmake_force
@@ -394,7 +436,7 @@ CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.s: cmake_force
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o: ../srcs/tank_controls/ft_isGunShot.cpp
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o -MF CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o.d -o CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/tank_controls/ft_isGunShot.cpp
 
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.i: cmake_force
@@ -408,7 +450,7 @@ CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.s: cmake_force
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o: ../srcs/tank_controls/ft_isGunRotLeft.cpp
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o -MF CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o.d -o CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/tank_controls/ft_isGunRotLeft.cpp
 
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.i: cmake_force
@@ -422,7 +464,7 @@ CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.s: cmake_force
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o: ../srcs/tank_controls/ft_isGunRotRight.cpp
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o -MF CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o.d -o CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/tank_controls/ft_isGunRotRight.cpp
 
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.i: cmake_force
@@ -432,6 +474,62 @@ CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.i: cmake_force
 CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cerberos/github/tank_zone_c-/srcs/tank_controls/ft_isGunRotRight.cpp -o CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.s
+
+CMakeFiles/game.dir/srcs/map/map.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/srcs/map/map.cpp.o: ../srcs/map/map.cpp
+CMakeFiles/game.dir/srcs/map/map.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/game.dir/srcs/map/map.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/map/map.cpp.o -MF CMakeFiles/game.dir/srcs/map/map.cpp.o.d -o CMakeFiles/game.dir/srcs/map/map.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/map/map.cpp
+
+CMakeFiles/game.dir/srcs/map/map.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/srcs/map/map.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cerberos/github/tank_zone_c-/srcs/map/map.cpp > CMakeFiles/game.dir/srcs/map/map.cpp.i
+
+CMakeFiles/game.dir/srcs/map/map.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/srcs/map/map.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cerberos/github/tank_zone_c-/srcs/map/map.cpp -o CMakeFiles/game.dir/srcs/map/map.cpp.s
+
+CMakeFiles/game.dir/srcs/map/load_textures.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/srcs/map/load_textures.cpp.o: ../srcs/map/load_textures.cpp
+CMakeFiles/game.dir/srcs/map/load_textures.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/game.dir/srcs/map/load_textures.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/map/load_textures.cpp.o -MF CMakeFiles/game.dir/srcs/map/load_textures.cpp.o.d -o CMakeFiles/game.dir/srcs/map/load_textures.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/map/load_textures.cpp
+
+CMakeFiles/game.dir/srcs/map/load_textures.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/srcs/map/load_textures.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cerberos/github/tank_zone_c-/srcs/map/load_textures.cpp > CMakeFiles/game.dir/srcs/map/load_textures.cpp.i
+
+CMakeFiles/game.dir/srcs/map/load_textures.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/srcs/map/load_textures.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cerberos/github/tank_zone_c-/srcs/map/load_textures.cpp -o CMakeFiles/game.dir/srcs/map/load_textures.cpp.s
+
+CMakeFiles/game.dir/srcs/map/update.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/srcs/map/update.cpp.o: ../srcs/map/update.cpp
+CMakeFiles/game.dir/srcs/map/update.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/game.dir/srcs/map/update.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/map/update.cpp.o -MF CMakeFiles/game.dir/srcs/map/update.cpp.o.d -o CMakeFiles/game.dir/srcs/map/update.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/map/update.cpp
+
+CMakeFiles/game.dir/srcs/map/update.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/srcs/map/update.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cerberos/github/tank_zone_c-/srcs/map/update.cpp > CMakeFiles/game.dir/srcs/map/update.cpp.i
+
+CMakeFiles/game.dir/srcs/map/update.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/srcs/map/update.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cerberos/github/tank_zone_c-/srcs/map/update.cpp -o CMakeFiles/game.dir/srcs/map/update.cpp.s
+
+CMakeFiles/game.dir/srcs/map/set_offset.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/srcs/map/set_offset.cpp.o: ../srcs/map/set_offset.cpp
+CMakeFiles/game.dir/srcs/map/set_offset.cpp.o: CMakeFiles/game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/game.dir/srcs/map/set_offset.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/game.dir/srcs/map/set_offset.cpp.o -MF CMakeFiles/game.dir/srcs/map/set_offset.cpp.o.d -o CMakeFiles/game.dir/srcs/map/set_offset.cpp.o -c /home/cerberos/github/tank_zone_c-/srcs/map/set_offset.cpp
+
+CMakeFiles/game.dir/srcs/map/set_offset.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/srcs/map/set_offset.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cerberos/github/tank_zone_c-/srcs/map/set_offset.cpp > CMakeFiles/game.dir/srcs/map/set_offset.cpp.i
+
+CMakeFiles/game.dir/srcs/map/set_offset.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/srcs/map/set_offset.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cerberos/github/tank_zone_c-/srcs/map/set_offset.cpp -o CMakeFiles/game.dir/srcs/map/set_offset.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
@@ -454,13 +552,20 @@ game_OBJECTS = \
 "CMakeFiles/game.dir/srcs/tank/swap_tracks.cpp.o" \
 "CMakeFiles/game.dir/srcs/tank/tank.cpp.o" \
 "CMakeFiles/game.dir/srcs/tank/update.cpp.o" \
+"CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.o" \
+"CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.o" \
+"CMakeFiles/game.dir/srcs/tank/set_borders.cpp.o" \
 "CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o" \
 "CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o" \
 "CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o" \
 "CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o" \
 "CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o" \
 "CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o" \
-"CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o"
+"CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o" \
+"CMakeFiles/game.dir/srcs/map/map.cpp.o" \
+"CMakeFiles/game.dir/srcs/map/load_textures.cpp.o" \
+"CMakeFiles/game.dir/srcs/map/update.cpp.o" \
+"CMakeFiles/game.dir/srcs/map/set_offset.cpp.o"
 
 # External object files for target game
 game_EXTERNAL_OBJECTS =
@@ -484,6 +589,9 @@ game: CMakeFiles/game.dir/srcs/tank/set_sprites.cpp.o
 game: CMakeFiles/game.dir/srcs/tank/swap_tracks.cpp.o
 game: CMakeFiles/game.dir/srcs/tank/tank.cpp.o
 game: CMakeFiles/game.dir/srcs/tank/update.cpp.o
+game: CMakeFiles/game.dir/srcs/tank/get_moveX.cpp.o
+game: CMakeFiles/game.dir/srcs/tank/get_moveY.cpp.o
+game: CMakeFiles/game.dir/srcs/tank/set_borders.cpp.o
 game: CMakeFiles/game.dir/srcs/tank_controls/ft_isTankUp.cpp.o
 game: CMakeFiles/game.dir/srcs/tank_controls/ft_isTankDown.cpp.o
 game: CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotLeft.cpp.o
@@ -491,6 +599,10 @@ game: CMakeFiles/game.dir/srcs/tank_controls/ft_isTankRotRight.cpp.o
 game: CMakeFiles/game.dir/srcs/tank_controls/ft_isGunShot.cpp.o
 game: CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotLeft.cpp.o
 game: CMakeFiles/game.dir/srcs/tank_controls/ft_isGunRotRight.cpp.o
+game: CMakeFiles/game.dir/srcs/map/map.cpp.o
+game: CMakeFiles/game.dir/srcs/map/load_textures.cpp.o
+game: CMakeFiles/game.dir/srcs/map/update.cpp.o
+game: CMakeFiles/game.dir/srcs/map/set_offset.cpp.o
 game: CMakeFiles/game.dir/build.make
 game: liblib.a
 game: /usr/local/lib/libsfml-graphics.so.2.5.1
@@ -498,7 +610,7 @@ game: /usr/local/lib/libsfml-audio.so.2.5.1
 game: /usr/local/lib/libsfml-window.so.2.5.1
 game: /usr/local/lib/libsfml-system.so.2.5.1
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cerberos/github/tank_zone_c-/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

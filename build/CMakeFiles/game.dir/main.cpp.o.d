@@ -275,6 +275,7 @@ CMakeFiles/game.dir/main.cpp.o: \
  /usr/local/include/SFML/Audio/SoundFileFactory.inl \
  /usr/local/include/SFML/Audio/SoundFileReader.hpp \
  /usr/local/include/SFML/Audio/SoundFileWriter.hpp \
+ /home/cerberos/github/tank_zone_c-/includes/h_sprites_path.h \
  /home/cerberos/github/tank_zone_c-/includes/h_tank.h \
  /usr/include/c++/11/math.h /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -299,5 +300,4 @@ CMakeFiles/game.dir/main.cpp.o: \
  /usr/include/c++/11/tr1/poly_hermite.tcc \
  /usr/include/c++/11/tr1/poly_laguerre.tcc \
  /usr/include/c++/11/tr1/riemann_zeta.tcc \
- /home/cerberos/github/tank_zone_c-/includes/h_sprites_path.h \
  /home/cerberos/github/tank_zone_c-/includes/h_tank_control.h

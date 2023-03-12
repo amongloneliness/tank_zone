@@ -3,11 +3,11 @@
 
 int main(void)
 {
-    const char *program_title = "Tank_Zone";
-    const short window_width = 800;
-    const short window_height = 800;
-    const short map_width = 32;         // ширина игровой карты [кол-во блоков]
-    const short map_height = 32;        // высота игровой карты [кол-во блоков]
+    const char *program_title = "Tank_Zone";    // заголовок приложения
+    const short window_width = 800;             // ширина окна [в пикселях]
+    const short window_height = 800;            // высота окна [в пикселях]
+    const short map_width = 32;                 // ширина игровой карты [кол-во блоков]
+    const short map_height = 32;                // высота игровой карты [кол-во блоков]
 
     // игровая карта: игровые блоки
     std::string str_map[map_width] = {
@@ -92,11 +92,25 @@ int main(void)
     
     /* игровые объекты */
     Tank player = Tank(0.5f, 0.3f, 0.3f);
+    Map map = Map(
+        str_map,
+        str_map_borders,
+        map_width,
+        map_height
+    );
     
     /* установка начальных координат игрока */
     player.set_pos(
         (float) window_width / 2, 
         (float) window_height / 2
+    );
+
+    /* установка границ передвижения танка по карте */
+    player.set_borders(
+        3 * BLOCK_W,
+        (map_width - 3) * BLOCK_W,
+        3 * BLOCK_H,
+        (map_height - 3) * BLOCK_H
     );
 
     while (window.isOpen()) {
@@ -113,6 +127,8 @@ int main(void)
         window.clear();
 
         /* отрисовка / обновление объектов */
+        map.set_offset(player.get_moveX(), player.get_moveY());
+        map.update(window);
         player.update(time, window);
 
         window.display();   // вывод окна

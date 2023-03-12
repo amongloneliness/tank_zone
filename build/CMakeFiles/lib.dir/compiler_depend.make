@@ -320,6 +320,7 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
   /usr/local/include/SFML/Audio/SoundFileFactory.inl \
   /usr/local/include/SFML/Audio/SoundFileReader.hpp \
   /usr/local/include/SFML/Audio/SoundFileWriter.hpp \
+  ../includes/h_sprites_path.h \
   ../includes/h_tank.h \
   /usr/include/c++/11/math.h \
   /usr/include/c++/11/cmath \
@@ -347,7 +348,6 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  ../includes/h_sprites_path.h \
   ../includes/h_tank_control.h
 
 
@@ -369,10 +369,6 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/tr1/special_function_util.h:
 
-../includes/h_sprites_path.h:
-
-/usr/include/c++/11/limits:
-
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
@@ -386,6 +382,10 @@ CMakeFiles/lib.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/math.h:
 
 ../includes/h_tank.h:
+
+/usr/include/c++/11/limits:
+
+../includes/h_sprites_path.h:
 
 /usr/local/include/SFML/Audio/SoundFileWriter.hpp:
 

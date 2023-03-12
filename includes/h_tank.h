@@ -13,6 +13,10 @@ class Tank {
         float rotate_gun_speed;     // скорость поворота оружия
         float moveX;                // движение по OX
         float moveY;                // движение по OY
+        float border_min_x;         // ограничение движения по OX
+        float border_max_x;         // ограничение движения по OX
+        float border_min_y;         // ограничение движения по OY
+        float border_max_y;         // ограничение движения по OY
         int tracks_frame;           // кадр гусениц на данный момент
         Texture tx_hull;            // текстура:  корпус танка
         Texture tx_gun;             // текстура:  орудие танка
@@ -43,8 +47,22 @@ class Tank {
             RenderWindow &w     // экземпляр окна
         );
 
-        // установка начальных координат
+        // установка начальных координат относительно окна
         void set_pos(const float &x, const float &y);
-};
+
+        // вернуть значение moveX
+        float get_moveX();
+
+        // вернуть значение moveY
+        float get_moveY();
+
+        // установить ограничения по OX и OY
+        void set_borders(
+            const float &t_border_min_x,        // минимальное значение x по OX
+            const float &t_border_max_x,        // максимальное значение x по OX
+            const float &t_border_min_y,        // минимальное значение y по OY
+            const float &t_border_max_y         // максимальное значение y по OY
+        );
+};     
 
 #endif

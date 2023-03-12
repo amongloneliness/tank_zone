@@ -26,9 +26,9 @@
 */
 
 
-#define BLOCK_A_PATH    "files/locations/blocks/Block_A"
-#define BLOCK_B_PATH    "files/locations/blocks/Block_B"
-#define BLOCK_C_PATH    "files/locations/blocks/Block_C"
+#define BLOCK_A_PATH    "files/locations/blocks/Block_A.png"
+#define BLOCK_B_PATH    "files/locations/blocks/Block_B.png"
+#define BLOCK_C_PATH    "files/locations/blocks/Block_C.png"
 
 #define BLOCK_W 128     // ширина спрайта   [кол-во пикселей]
 #define BLOCK_H 128     // высота спрайта   [кол-во пикселей]
