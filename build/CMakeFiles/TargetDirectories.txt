@@ -1,0 +1,4 @@
+/home/cerberos/github/tank_zone_c-/build/CMakeFiles/game.dir
+/home/cerberos/github/tank_zone_c-/build/CMakeFiles/lib.dir
+/home/cerberos/github/tank_zone_c-/build/CMakeFiles/edit_cache.dir
+/home/cerberos/github/tank_zone_c-/build/CMakeFiles/rebuild_cache.dir
